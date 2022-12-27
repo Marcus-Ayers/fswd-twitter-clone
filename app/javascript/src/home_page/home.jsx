@@ -25,7 +25,7 @@ const Home = (props) => {
           <Welcome />
           <Footer />
           </div>
-          <div className="log-in col-6">
+          <div className="log-in col-3">
             <Login />
             <SignUp />
           </div>

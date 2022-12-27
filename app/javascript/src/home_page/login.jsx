@@ -8,8 +8,14 @@ function Login() {
               <input type="text" name='username'  className="form-control username mb-2 border border-primary" placeholder="Username"/>
           </div>
           <div className="form-group col-xs-8">
-              <input type="password" name='password'  className="password my-2 border border-primary" placeholder="Password"/>
-              <button type='submit' className="btn btn-default btn-primary col-xs-3 float-right">Log in</button>
+              <div className="row">
+                <div className="col-lg-12 col-xl-8">
+              <input type="password" name='password'  className="form-control password my-2 border border-primary" placeholder="Password"/>
+                </div>
+                <div className="col">
+              <button type='submit' className="login btn btn-default btn-primary ">Log in</button>
+                </div>
+              </div>
           </div>
       </div>
     )
