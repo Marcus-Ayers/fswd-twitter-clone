@@ -83,6 +83,7 @@ class SignUp extends React.Component {
                 window.location.href = '/feed';
             }
             else {
+              
                 throw new Error('Invalid username or password for session');
             }
         })
