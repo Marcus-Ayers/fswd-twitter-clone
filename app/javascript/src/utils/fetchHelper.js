@@ -39,7 +39,7 @@ export function safeCredentialsFormData(options = {}) {
 
 export function handleErrors(response) {
   if (!response.ok) {
-    throw new Error('internal');
+    throw new Error('internal3');
   }
   return response.json();
 }
