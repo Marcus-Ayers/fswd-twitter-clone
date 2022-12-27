@@ -5,10 +5,10 @@ import ReactDOM from 'react-dom'
 // import TrendsCard from './trendsCard';
 // import Feedbox from './feedbox';
 
-import './tweets.scss';
+import './feed.scss';
 
 
-const Tweets = () => {
+const Feed = () => {
   return (
     <React.Fragment>
       {/* <Navbar /> */}
@@ -28,7 +28,7 @@ const Tweets = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Tweets />,
+    <Feed />,
     document.body.appendChild(document.createElement('div')),
   )
 })

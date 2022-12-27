@@ -79,7 +79,7 @@ class SignUp extends React.Component {
         .then(handleErrors)
         .then(data => { 
             if (data.success) {
-                window.location.href = '/tweets';
+                window.location.href = '/feeds';
             }
             else {
                 throw new Error('Invalid username or password for session');
