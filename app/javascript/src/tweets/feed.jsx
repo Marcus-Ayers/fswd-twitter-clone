@@ -1,9 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import Navbar from './navbar';
-// import ProfileCard from './profileCard';
-// import TrendsCard from './trendsCard';
-// import Feedbox from './feedbox';
 
 import './feed.scss';
 
@@ -11,17 +7,7 @@ import './feed.scss';
 const Feed = () => {
   return (
     <React.Fragment>
-      {/* <Navbar /> */}
-      <div className="main container">
-        <div className="row">
-          <div className="profile-trends col-3">
-            <h1> Hello 123456</h1>
-            {/* <ProfileCard /> */}
-            {/* <TrendsCard /> */}
-          </div>
-          {/* <Feedbox /> */}
-        </div>
-      </div>
+      <h1> Feed </h1>
     </React.Fragment>
   )
 } 
