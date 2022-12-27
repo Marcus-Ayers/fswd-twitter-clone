@@ -1,1 +1,1 @@
-import '@src/home';
+import '@src/home_page/home';
