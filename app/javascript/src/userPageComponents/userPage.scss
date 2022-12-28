@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.static_pages.feed {
+.static_pages.userPage {
   min-height: calc(100vh - 51px);
   background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
   background-position: left 40px;
@@ -13,7 +13,6 @@
 
 .navbar {
   background-color: #fff;
-  width: 100%;
 }
 
 @media (max-width: 575px) {
@@ -48,7 +47,6 @@
   margin-top: 50px;
   padding-top: 10px;
 }
-
 
 .profileCard {
   background: #fff;

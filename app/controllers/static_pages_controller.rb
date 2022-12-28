@@ -4,5 +4,8 @@ class StaticPagesController < ApplicationController
 
   def feed
   end
+
+  def userPage
+  end
  
 end

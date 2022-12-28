@@ -12,8 +12,8 @@ module Api
       @tweet = user.tweets.new(tweet_params)
 
       if @tweet.save
-        TweetMailer.notify(@tweet).deliver!
-        render 'api/tweets/create'
+        # TweetMailer.notify(@tweet).deliver!
+        # render 'api/tweets/create'
       end
     end
 
