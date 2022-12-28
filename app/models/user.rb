@@ -1,3 +1,5 @@
+require 'bcrypt'
+
 class User < ApplicationRecord
   has_many :sessions
   has_many :tweets
@@ -14,8 +16,8 @@ class User < ApplicationRecord
   private
 
   def hash_password
-    # self.password = BCrypt::Password.create(password)
-    self.password = password
+    self.password = BCrypt::Password.create(password)
+    # self.password = password
 
   end
 end
