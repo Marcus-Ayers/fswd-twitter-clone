@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FeedNav from './feedNav';
-import ProfileCard from './profileCard';
-import TrendCard from './trendCard';
+import FeedNav from './feed_nav';
+import ProfileCard from './profile_box';
+import TrendCard from './trending_box';
 import { authenticate, deleteOneTweet, getAllTweets, getUserTweets } from "../utils/request";
 
 
 import './feed.scss';
-import FeedBox from './feedBox';
+import FeedBox from './feed_box';
 
 
 class Feed extends React.Component {

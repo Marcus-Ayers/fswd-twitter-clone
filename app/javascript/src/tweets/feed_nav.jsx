@@ -1,8 +1,6 @@
 import React from "react";
 import { authenticate, logoutUser } from "../utils/request";
-
 import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 export default class FeedNav extends React.Component {

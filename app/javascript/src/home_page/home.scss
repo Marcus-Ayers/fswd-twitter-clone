@@ -1,6 +1,7 @@
-.login {
-  margin-top: 8px;
-}
-.footer-text a{
-  color: black
+.static_pages.home {
+  min-height: calc(100vh - 51px);
+  background-position: left 40px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #C0DEED;
 }

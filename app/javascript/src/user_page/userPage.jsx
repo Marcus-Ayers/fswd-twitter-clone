@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { authenticate, deleteOneTweet, getUserTweets } from '../utils/request';
-import FeedBox from '../tweets/feedBox';
-import FeedNav from '../tweets/feedNav';
-import ProfileCard from '../tweets/profileCard';
-import TrendCard from '../tweets/trendCard';
+import FeedBox from '../tweets/feed_box';
+import FeedNav from '../tweets/feed_nav';
+import ProfileCard from '../tweets/profile_box';
+import TrendCard from '../tweets/trending_box';
 
 import './userPage.scss';
 

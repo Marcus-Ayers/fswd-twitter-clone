@@ -1,7 +1,3 @@
-// Place all the styles related to the User controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 .static_pages.feed {
   min-height: calc(100vh - 51px);
   background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
@@ -26,13 +22,7 @@
   }
 }
 
-.navbar-header {
-  float: left;
-}
 
-.navbar-right {
-  float: right;
-}
 
 .search-bar {
   height: 50px;
@@ -88,10 +78,6 @@
 .user-stats a span:first-child:hover {
   color: #0084B4;
 }
-
-/*a:hover {
-  color: #0084B4;
-}*/
 
 .trends {
   background: #fff;
@@ -198,11 +184,6 @@
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
-}
-
-.search-btn {
-  max-height: 34px;
-  border-color: #ccc;
 }
 
 .dropdown-toggle {

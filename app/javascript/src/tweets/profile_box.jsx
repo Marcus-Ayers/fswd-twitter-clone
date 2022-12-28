@@ -10,7 +10,7 @@ export default class ProfileCard extends React.Component {
 
     return (
       <>
-        <div className="profileCard">
+        <div className="profileCard mt-5">
           <div className="profileCard-content">
             <div className="user-field px-3">
               <a className="username" href="#">{username}</a><br/>

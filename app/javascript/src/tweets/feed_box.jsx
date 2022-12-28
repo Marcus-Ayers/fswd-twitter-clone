@@ -62,10 +62,9 @@ export default class FeedBox extends React.Component {
     return (
       <>
         <form onSubmit={this.postUserTweet}>
-          <div className="post-tweet-box p-2">
+          <div className="post-tweet-box p-2 mt-5">
             <textarea type="text" className="form-control post-input" rows="3" placeholder="What's happening?" value={userTweet} onKeyUp={this.countChar} onChange={this.handleChange} name="userTweet" required></textarea>
             <div className="pull-right">
-              <label id="upload-image-btn" htmlFor="image-select">Upload image</label>
               <img id="image-preview" src="" alt="image preview" style={{display: "none"}}/>
               <input type="file" id="image-select" name="image" accept="image/*" onChange={this.fileChange} />
               <span className="post-char-counter">140</span>

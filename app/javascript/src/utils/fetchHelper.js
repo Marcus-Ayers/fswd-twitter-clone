@@ -4,7 +4,6 @@ export function jsonHeader(options = {}) {
     'Content-Type': 'application/json',
   });
 }
-// Additional helper methods
 export function getMetaContent(name) {
   const header = document.querySelector(`meta[name="${name}"]`);
   return header && header.content;
@@ -18,10 +17,6 @@ export function authenticityHeader(options = {}) {
     'X-Requested-With': 'XMLHttpRequest',
   });
 }
-/**
-* Lets fetch include credentials in the request. This includes cookies and other possibly sensitive data.
-* Note: Never use for requests across (untrusted) domains.
-*/
 export function safeCredentials(options = {}) {
   return Object.assign(options, {
     credentials: 'include',
@@ -29,7 +24,6 @@ export function safeCredentials(options = {}) {
     headers: Object.assign((options.headers || {}), authenticityHeader(), jsonHeader()),
   });
 }
-// Use this function instead if you are using formData as body when uploading images
 export function safeCredentialsFormData(options = {}) {
   return Object.assign(options, {
     credentials: 'include',
