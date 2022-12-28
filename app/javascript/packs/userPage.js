@@ -1,1 +1,1 @@
-import '@src/userPageComponents/userPage';
+import '@src/user_page/userPage';
