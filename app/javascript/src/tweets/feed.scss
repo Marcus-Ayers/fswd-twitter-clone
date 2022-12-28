@@ -206,13 +206,10 @@
 }
 
 .dropdown-toggle {
-  color: rgb(82, 80, 80) !important;
-  padding: 13px;
+  margin: 10px;
 }
 
-.dropdown-toggle::after {
-  content:none;
-}
+
 
 .input-group, .search-input{
   max-height: 34px;
@@ -220,12 +217,4 @@
 
 a {
   text-decoration: none;
-}
-
-.dropdown-menu a {
-  color:rgb(82, 80, 80)
-}
-
-.dropdown-menu {
-  right: 0
 }

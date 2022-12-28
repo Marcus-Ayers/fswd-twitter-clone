@@ -62,7 +62,9 @@ class UserPage extends React.Component {
 
     return (
       <>
-        <FeedNav username={this.state.username}/>
+      
+        <FeedNav username={this.state.username} />
+        
         <div className='main container'>
           <div className='row'>
             <div className='col-12 col-md-4 profile-trends'>
