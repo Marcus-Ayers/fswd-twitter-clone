@@ -1,6 +1,8 @@
 module Api
   class SessionsController < ApplicationController
     def create
+      require 'bcrypt'
+      
       @user = User.find_by(username: params[:user][:username])
 
       if @user && (BCrypt::Password.new(@user.password) == params[:user][:password])
